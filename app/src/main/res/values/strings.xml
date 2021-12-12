@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SuaraAnginRev</string>
+
+    <string name="link">
+        <a href="https://www.google.com">Google</a>
+    </string>
+</resources>
