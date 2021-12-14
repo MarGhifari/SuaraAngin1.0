@@ -2,14 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginBottom="10dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        card_view:cardElevation="0dp"
-        card_view:cardBackgroundColor="@android:color/transparent">
+        android:layout_height="100dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,7 +20,7 @@
                 android:layout_height="100dp"
                 android:src="@drawable/ic_launcher_background"
                 android:scaleType="centerCrop"
-                card_view:shapeAppearanceOverlay="@style/rounderCorner"/>
+                app:shapeAppearanceOverlay="@style/rounderCorner"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -34,12 +32,12 @@
                     android:id="@+id/newsTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_medium"
                     android:text="Melacak Akar Konflik Abadi Dua Perguruan Silat Kenamaan Indonesia"
+                    android:fontFamily="@font/roboto_medium"
                     android:textColor="?attr/colorPrimaryVariant"
-                    android:textSize="15dp"
                     android:maxLines="3"
-                    android:ellipsize="end"/>
+                    android:ellipsize="end"
+                    android:textSize="15dp"/>
 
                 <TextView
                     android:id="@+id/newsSource"

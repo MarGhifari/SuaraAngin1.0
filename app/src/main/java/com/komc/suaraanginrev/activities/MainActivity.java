@@ -23,6 +23,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.komc.suaraanginrev.R;
 import com.komc.suaraanginrev.adapter.NewsAdapter;
+import com.komc.suaraanginrev.fragment.EntertainActivity;
 import com.komc.suaraanginrev.model.NewsModel;
 
 import org.json.JSONArray;

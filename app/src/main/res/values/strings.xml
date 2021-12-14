@@ -4,4 +4,16 @@
     <string name="link">
         <a href="https://www.google.com">Google</a>
     </string>
+
+<!--    Tambahan dari introSlider Levi-->
+    <string name="next">Selanjutnya</string>
+    <string name="discover">Terpercaya</string>
+    <string name="shop">Tercepat</string>
+    <string name="offers">Edukatif</string>
+    <string name="rewards">Rewards</string>
+    <string name="discover_text">Berbicara dengan data, bukan kata</string>
+    <string name="shop_text">Menyajikan informasi faktual dan terpercaya</string>
+    <string name="offers_text">Menambah ilmu dan wawasan dunia</string>
+    <string name="rewards_text"><![CDATA[Free recharge coupons & more]]></string>
+    <string name="get_started">Get Started</string>
 </resources>
